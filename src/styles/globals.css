@@ -40,3 +40,19 @@ a {
     color-scheme: dark;
   }
 }
+@font-face {
+  font-family: 'Irish Grover';
+  src: url('/path/to/your/irish-grover-font.woff2') format('woff2'), /* Ajuste o caminho para o arquivo da fonte */
+       url('/path/to/your/irish-grover-font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Importando o arquivo CSS global */
+@font-face {
+  font-family: 'Irish Grover';
+  src: url('/path/to/your/irish-grover-font.woff2') format('woff2'), 
+       url('/path/to/your/irish-grover-font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
